@@ -125,7 +125,7 @@ runs:
         TMAS_SECRETS_SCAN: ${{ inputs.secretsScan }}
         TMAS_ARTIFACT: ${{ inputs.artifact }}
         TMAS_ADDITIONAL_ARGS: ${{ inputs.additionalArgs }}
-        TMAS_API_KEY: ${{ inputs.tmasApiKey }}
+        TMAS_API_KEY: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjaWQiOiJiNjY5NDU0MS0wM2ZkLTQxNzMtOWEzYS05NWJkODk2ZmUyOWIiLCJjcGlkIjoic3ZwIiwicHBpZCI6ImN1cyIsIml0IjoxNzgwMjg1OTM0LCJldCI6MTc4ODA2MTkzMywiaWQiOiI3MTlkNzg1Ni04OTlmLTRlYjgtYmFlMi05NWVmMTUwZDU5YWMiLCJ0b2tlblVzZSI6ImN1c3RvbWVyIn0.nr8naGdQ052UmRERZt2kuK20jmsE1hjndhpxgwtiXsP1C3lF3B5IzDIKiRPeFDzUZZTn8nF6vfYCbcwOEE3GtsvVdtZZyx5MIZm_zcI3Jr5Rga6CJlOvnTPG3U68_3o2nV-qYuYCmYx4ByX7HMZE67c4TqhI6NLEK-D-rf9ZFZ9yWef6szBoQ5i_FEQzfFk_c9RWNRCHXlymQDtyVcrF0OR8WW01TwaiD4HOGUX1iCtYXGjttbUQFigHHeDr-p87T_O-cd8xzdqWRG1rZnpNaZ-IVcuQ-IsWgA3fOTZHICDZL8JtEGbSvcUe8krGo37W1zZ_Yjfxz6-LDgqvY3ZMCd0KCbG-T8ZsZt_Empp-O8LTJl01Zqc48QyiiXFlMlp0K726jAkwTLN5N_h0vFKRNlRQR1X3AHXUFw71ak9bA6xcVjuZNEH86XVP6GeizokGD18vEoJNQsPZrzjxLnYgwHp_jUHmkJasPNHOv0yMt7YB9t-Xg4wRg9_a3KU01rGivT1sEX7i2jjCCSmcCVmF8pP24w44OHpSuny7p8rUk6cspjR-h-Fj4FCx1mAyR3tshk4WgLdkNPAQrWuhjTpsOcnskF240By06qSmWcPO-5c4RHfCblzx1S7VI-ati_tr-Sjc02CscUQ1EaVHjj4ZqNEfuOdE21hzxmGSJlY5dJ4
         TMAS_DEFAULT_ARGS: "--redacted --output=markdown=scan-report.md"
 
     - name: Report results
